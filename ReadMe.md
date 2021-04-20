@@ -2,7 +2,7 @@ MultipleSolutionsTest is a large repository with multiple solutions, projects an
 
 In a cmd window clone the following repos into the same parent folder: <br>
 ```
-cd c:\temp\myrepos <br>
+cd c:\temp\myrepos
 git clone https://github.com/tracktownsoftware/MultipleSolutionsTest
 git clone https://github.com/tracktownsoftware/MultipleSolutionsTest_Windows
 git clone https://github.com/tracktownsoftware/MultipleSolutionsTest_Web
