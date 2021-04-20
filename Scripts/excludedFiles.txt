@@ -1,0 +1,8 @@
+ReadMe.md
+MyLargeSolution.sln
+WebAppSolution.sln
+WPFAppSolution.sln
+\Scripts
+\WebApplication1
+\WinFormsApp1
+\WPFApp1
