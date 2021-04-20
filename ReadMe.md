@@ -12,6 +12,6 @@ git clone https://github.com/tracktownsoftware/MultipleSolutionsTest_Windows
 git clone https://github.com/tracktownsoftware/MultipleSolutionsTest_Web
 ```
 
-Use VisualStudio or VSCode make changes in the large local repository MultipleSolutionsTest. 
+Use VisualStudio or VSCode to make changes in the large local repository MultipleSolutionsTest. 
 
 Run MultipleSolutionsTest\CopyToSmallRepos\copyToSmallRepos.bat to copy your changes to the smaller local repos MultipleSolutionsTest_Web and MultipleSolutionsTest_Windows.
