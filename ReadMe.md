@@ -1,4 +1,6 @@
-MultipleSolutionsTest is a large repository with multiple solutions, projects and a shared class library. This is a test to split the large repository into smaller targeted respositories.
+This is a test for maintaining code in a large repository which is then copied into smaller targeted public repositories for sharing.
+
+MultipleSolutionsTest is large repository containing .Net Web and Windows solutions and a shared class library project. A script copies the appropriate content into smaller repositories named MultipleSolutionsTest_Web and MultipleSolutionsTest_Windows.
 
 In a cmd window clone the following repos into the same parent folder: <br>
 ```
@@ -8,6 +10,6 @@ git clone https://github.com/tracktownsoftware/MultipleSolutionsTest_Windows
 git clone https://github.com/tracktownsoftware/MultipleSolutionsTest_Web
 ```
 
-Use VisualStudio or VSCode make changes in the large MultipleSolutionsTest local repo. 
+Use VisualStudio or VSCode make changes in the large local repository MultipleSolutionsTest. 
 
-Run CopyToSmallRepos\copyToSmallRepos.bat to copy your changes from local repo MultipleSolutionsTest to the smaller local repos MultipleSolutionsTest_Web and MultipleSolutionsTest_Windows.
+Run MultipleSolutionsTest\CopyToSmallRepos\copyToSmallRepos.bat to copy your changes to the smaller local repos MultipleSolutionsTest_Web and MultipleSolutionsTest_Windows.
