@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ClassLibrary1
+namespace SharedClassLibrary1
 {
     public class HelloWorld
     {

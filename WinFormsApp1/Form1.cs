@@ -20,7 +20,7 @@ namespace WinFormsApp1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            var helloWorld = new ClassLibrary1.HelloWorld();
+            var helloWorld = new SharedClassLibrary1.HelloWorld();
             label1.Text = helloWorld.SayHelloWorld;
         }
     }

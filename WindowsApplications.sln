@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibrary1", "ClassLibra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPFApp1", "WPFApp1\WPFApp1.csproj", "{1E22B5BB-34E7-44C2-91CC-4F2F01D8671D}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{58E71476-1B23-4987-999C-FC97A378A96A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1E22B5BB-34E7-44C2-91CC-4F2F01D8671D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E22B5BB-34E7-44C2-91CC-4F2F01D8671D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E22B5BB-34E7-44C2-91CC-4F2F01D8671D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58E71476-1B23-4987-999C-FC97A378A96A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58E71476-1B23-4987-999C-FC97A378A96A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58E71476-1B23-4987-999C-FC97A378A96A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58E71476-1B23-4987-999C-FC97A378A96A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

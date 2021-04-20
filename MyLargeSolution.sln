@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPFApp1", "WPFApp1\WPFApp1.csproj", "{B7DF62D5-7C5D-4E6A-96CC-3691EC7A92F6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{E30652B5-288B-486E-9735-7E5FDA663B8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedClassLibrary1", "ClassLibrary1\SharedClassLibrary1.csproj", "{E30652B5-288B-486E-9735-7E5FDA663B8E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{85E655FA-F132-4D61-AC0A-FCA67B125865}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{F6C76EEB-D74B-45F6-B151-03376EF60EAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{F6C76EEB-D74B-45F6-B151-03376EF60EAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
