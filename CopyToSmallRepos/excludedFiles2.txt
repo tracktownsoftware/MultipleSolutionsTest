@@ -1,0 +1,6 @@
+\WinFormsApp1\obj
+\WinFormsApp1\bin
+\WPFApp1\obj
+\WPFApp1\bin
+\WebApplication1\obj
+\WebApplication1\bin

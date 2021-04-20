@@ -2,6 +2,8 @@ ReadMe.md
 MyLargeSolution.sln
 WebApplication.sln
 WindowsApplications.sln
+\ClassLibrary1\bin
+\ClassLibrary1\obj
 \CopyToSmallRepos
 \WebApplication1
 \WinFormsApp1

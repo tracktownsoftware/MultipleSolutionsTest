@@ -8,13 +8,13 @@ IF exist "MultipleSolutionsTest" goto COPYTOSMALLREPOS
 :COPYTOSMALLREPOS
 	echo "Copying to repo MultipleSolutionsTest_Web..."
 	XCOPY MultipleSolutionsTest MultipleSolutionsTest_Web /E /C /I /Y /Exclude:%mypath%\excludedFiles.txt
-	XCOPY MultipleSolutionsTest\WebApplication1 MultipleSolutionsTest_Web\Webapplication1 /E /C /I /Y
+	XCOPY MultipleSolutionsTest\WebApplication1 MultipleSolutionsTest_Web\Webapplication1 /E /C /I /Y /Exclude:%mypath%\excludedFiles2.txt
 	XCOPY MultipleSolutionsTest\WebApplication.sln MultipleSolutionsTest_Web /C /Y
 	XCOPY MultipleSolutionsTest\CopyToSmallRepos\ReadMe_Web.md MultipleSolutionsTest_Web\ReadMe.md* /C /Y
 	echo "Copying to repo MultipleSolutionsTest_Windows..."
 	XCOPY MultipleSolutionsTest MultipleSolutionsTest_Windows /E /C /I /Y /Exclude:%mypath%\excludedFiles.txt
-	XCOPY MultipleSolutionsTest\WinFormsApp1 MultipleSolutionsTest_Windows\WinFormsApp1 /E /C /I /Y
-	XCOPY MultipleSolutionsTest\WPFApp1 MultipleSolutionsTest_Windows\WPFApp1 /E /C /I /Y
+	XCOPY MultipleSolutionsTest\WinFormsApp1 MultipleSolutionsTest_Windows\WinFormsApp1 /E /C /I /Y /Exclude:%mypath%\excludedFiles2.txt
+	XCOPY MultipleSolutionsTest\WPFApp1 MultipleSolutionsTest_Windows\WPFApp1 /E /C /I /Y /Exclude:%mypath%\excludedFiles2.txt
 	XCOPY MultipleSolutionsTest\WindowsApplications.sln MultipleSolutionsTest_Windows /C /Y
 	XCOPY MultipleSolutionsTest\CopyToSmallRepos\ReadMe_Windows.md MultipleSolutionsTest_Windows\ReadMe.md* /C /Y
 :END
