@@ -2,7 +2,7 @@
 
 This is a test for maintaining code in a large repository which is then copied into smaller targeted public repositories for sharing.
 
-MultipleSolutionsTest is large repository containing .Net Web and Windows solutions and a shared class library project. A script copies the appropriate content into smaller repositories named MultipleSolutionsTest_Web and MultipleSolutionsTest_Windows.
+MultipleSolutionsTest is a large repository containing .Net Web and Windows solutions and a shared class library project. A script copies the appropriate content into smaller repositories named MultipleSolutionsTest_Web and MultipleSolutionsTest_Windows.
 
 In a cmd window clone the following repos into the same parent folder: <br>
 ```
