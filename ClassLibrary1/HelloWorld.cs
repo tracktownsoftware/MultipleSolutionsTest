@@ -7,7 +7,7 @@ namespace ClassLibrary1
 
         public string SayHelloWorld
         {
-            get { return "Hello World 2"; }
+            get { return "Hello World 3"; }
         }
 
     }
