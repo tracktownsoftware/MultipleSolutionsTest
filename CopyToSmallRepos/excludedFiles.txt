@@ -2,7 +2,8 @@ ReadMe.md
 MyLargeSolution.sln
 WebApplication.sln
 WindowsApplications.sln
-\Scripts
+\CopyToSmallRepos
 \WebApplication1
 \WinFormsApp1
 \WPFApp1
+\.vs
