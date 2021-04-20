@@ -1,4 +1,4 @@
-MultipleSolutionsTest is a large repository with multiple solutions, projects and a shared class library. This is a test to split the large repository into smaller targted respositories.
+MultipleSolutionsTest is a large repository with multiple solutions, projects and a shared class library. This is a test to split the large repository into smaller targeted respositories.
 
 In a cmd window clone the following repos into the same parent folder: <br>
 ```
