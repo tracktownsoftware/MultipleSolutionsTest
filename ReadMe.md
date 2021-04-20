@@ -1,6 +1,7 @@
 MultipleSolutionsTest is a large repository with multiple solutions, projects and a shared class library. This is a test to split the large repository into smaller targted respositories.
 
-Clone the following repos into the same parent folder such as c:\temp\myrepos
+In a cmd window clone the following repos into the same parent folder
+cd c:\temp\myrepos
 git clone https://github.com/tracktownsoftware/MultipleSolutionsTest
 git clone https://github.com/tracktownsoftware/MultipleSolutionsTest_Windows
 git clone https://github.com/tracktownsoftware/MultipleSolutionsTest_Web
