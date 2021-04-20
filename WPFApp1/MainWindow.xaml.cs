@@ -23,6 +23,13 @@ namespace MyLargeSolution
         public MainWindow()
         {
             InitializeComponent();
+            this.Loaded += MainWindow_Loaded;
+        }
+
+        private void MainWindow_Loaded(object sender, RoutedEventArgs e)
+        {
+            var helloWorld = new ClassLibrary1.HelloWorld();
+            Label1.Content = helloWorld.SayHelloWorld;
         }
     }
 }
