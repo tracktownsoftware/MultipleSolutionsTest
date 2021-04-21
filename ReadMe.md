@@ -13,7 +13,7 @@ git clone https://github.com/tracktownsoftware/MultipleSolutionsTest_Web
 ```
 
 The workflow:
-1. Use VisualStudio or VSCode to make changes in the local repository for MultipleSolutionsTest. 
+1. Use VisualStudio or VSCode to make changes in the local repository for MultipleSolutionsTest (example: change the SayHelloWorld string returned in the HelloWorld class in SharedClassLibrary1).
 2. In Windows Explorer double-click MultipleSolutionsTest\CopyToSmallRepos\copyToSmallRepos.bat to copy your changes to the smaller repos MultipleSolutionsTest_Web and MultipleSolutionsTest_Windows.
 3. Test solutions and projects in MultipleSolutionsTest_Web and MultipleSolutionsTest_Windows.
 4. Commit and push changes in MultipleSolutionsTest_Web and MultipleSolutionsTest_Windows to Github.
