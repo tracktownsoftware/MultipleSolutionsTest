@@ -3,7 +3,7 @@ set mypath=%cd%
 cd ..
 cd ..
 IF exist "MultipleSolutionsTest" goto COPYTOSMALLREPOS
-	echo "You need to run this script from the folder MultipleSolutionsTest\Scripts"
+	echo "You need to run this script from the folder MultipleSolutionsTest\CopyToSmallRepos"
 	goto END
 :COPYTOSMALLREPOS
 	echo "Delete files and folders in MultipleSolutionsTest_Web..."
